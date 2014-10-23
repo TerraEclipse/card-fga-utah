@@ -1,0 +1,33 @@
+{
+  "title": "FGA Utah Card",
+  "description": "Medicaid expansion is unhealthy for Utah",
+  "typekit": true,
+  "sizes": {
+    "twitter": {
+      "width": 800,
+      "height": 400,
+      "default": true
+    }
+  },
+  "styles": [
+    "./styles.css"
+  ],
+  "variables": {
+    "first": "Your",
+    "last": "Name",
+    "city": "Your Hometown",
+    "state": "",
+    "state_full": "Your Hometown",
+    "avatar": "./images/avatar.jpg"
+  },
+  "variants": {
+    "herbert": {
+      "variables": {
+        "target_title": "Governor",
+        "target_first": "Gary",
+        "target_last": "Herbert",
+        "target_image": "./img/herbert.jpg"
+      }
+    }
+  }
+}
