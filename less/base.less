@@ -28,7 +28,17 @@ h2 strong {
   color: #FFC237;
 }
 h1 {
+  .rotate(2.3deg);
   font-family: 'alternate-gothic-no-1-d', 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 85px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  text-shadow: 0 4px 3px #660007;
+
+  .ellipsis {
+    letter-spacing: -5px;
+  }
 }
 h2 {
   font-weight: 400;
@@ -41,12 +51,14 @@ h2 {
   margin-top: 7px;
   background: url('img/speech-bubble.png') no-repeat top left;
 
+  .target-image,
+  .masthead-copy {
+    position: absolute;
+  }
   .target-image {
-    position: relative;
-    float: left;
+    left: 20px;
     width: 229px;
     height: 218px;
-    margin-left: 20px;
 
     .target-outline,
     .target-photo {
@@ -72,6 +84,9 @@ h2 {
     }
   }
   .masthead-copy {
-    
+    top: 34px;
+    right: 13px;
+    text-align: center;
+    z-index: 2;
   }
 }
