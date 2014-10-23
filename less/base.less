@@ -26,8 +26,10 @@ section {
 
   .target-image {
     position: relative;
+    float: left;
     width: 229px;
     height: 218px;
+    margin-left: 20px;
 
     .target-outline,
     .target-photo {
@@ -43,6 +45,16 @@ section {
     }
     .target-photo {
       z-index: 0;
+
+      img {
+        .rotate(-7deg);
+        position: absolute;
+        top: 15px;
+        left: 20px;
+      }
     }
+  }
+  .masthead-copy {
+    
   }
 }
