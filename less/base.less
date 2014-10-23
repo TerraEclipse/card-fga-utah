@@ -102,6 +102,7 @@ h2 {
 }
 
 .signature {
+  margin-top: -54px;
   text-align: center;
 
   .avatar {
@@ -110,13 +111,22 @@ h2 {
     width: 152px;
     height: 152px;
 
-    .avatar-outline {
+    .avatar-outline,
+    .avatar-photo {
       position: absolute;
+    }
+    .avatar-outline {
       top: 0;
       right: 0;
       bottom: 0;
       left: 0;
-      background: url('img/avatar-outline.png'); 
+      background: url('img/avatar-outline.png');
+      z-index: 1;
+    }
+    .avatar-photo {
+      top: 12px;
+      left: 9px;
+      z-index: 0;
     }
   }
 }
