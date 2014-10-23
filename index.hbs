@@ -8,7 +8,19 @@
 
   <body>
     <section class="masthead">
-      Masthead
+      <div class="target-image">
+        <div class="target-outline">&nbsp;</div>
+        <div class="target-photo">
+          {{#if variants}}
+            <img src="{{target_image}}">
+          {{else}}
+            <img src="img/herbert.jpg">
+          {{/if}}
+        </div>
+      </div>
+      <div class="masthead-copy">
+        Masthead copy
+      </div>
     </section>
 
     <section class="signature">
