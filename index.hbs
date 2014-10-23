@@ -2,10 +2,12 @@
 
 <html>
   <head>
+    {{{styles}}}
     <!-- Font links/scripts here -->
   </head>
 
   <body>
-    Hello, {{#if variants}} {{target_title}} {{target_last}} {{/if}}
+    <p>Hello, {{#if variants}} {{target_title}} {{target_last}} {{else}} Senator Name {{/if}}</p>
+    <p>And hello to you, too, {{first}} {{last}} in {{state_full}}</p>
   </body>
 </html>
