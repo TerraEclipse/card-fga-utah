@@ -130,6 +130,15 @@ h2 strong {
   left: 9px;
   z-index: 0;
 }
+.signature .avatar .avatar-photo .photo-wrapper {
+  width: 132px;
+  height: 127px;
+  font-size: 0;
+  overflow: hidden;
+}
+.signature .avatar .avatar-photo .photo-wrapper img {
+  width: 132px;
+}
 .signature .signature-copy {
   padding-top: 6px;
   padding-left: 10px;
