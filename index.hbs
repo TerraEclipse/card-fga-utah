@@ -36,7 +36,11 @@
         <div class="avatar-outline">&nbsp;</div>
         <div class="avatar-photo">
           <div class="photo-wrapper">
-            <img src="{{avatar}}">
+            {{#if avatar}}
+              <img src="{{avatar}}">
+            {{else}}
+              <img src="./img/avatar.jpg">
+            {{/if}}
           </div>
         </div>
       </div>
